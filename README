@@ -1,0 +1,7 @@
+This is a very basic URL Shortener based on Node.js and MongoDB.
+The main goal for the project is to build up a fast and light URL shortener.
+
+Packages used:
+ - Express framework
+ - Mongoose ORM (Can those guys name it ODM?)
+ - Jade template engine

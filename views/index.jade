@@ -1,0 +1,7 @@
+h1 Shorten your URL
+form(method='post')
+	p
+		input(type="text", name="orurl", value=url.orurl)
+		input(type="submit", value="Shorten!")
+- if (url.shurl)
+	a(href="/#{url.shurl}", target="_blank") Shortened URL!

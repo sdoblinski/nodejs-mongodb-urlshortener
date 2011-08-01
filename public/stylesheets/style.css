@@ -1,0 +1,37 @@
+/**
+color scheme
+Primary Color:
+3A617E	384E5F	133752	719DBF	86A6BF
+Complementary Color:
+C49453	937853	80541B	E2B880	E2C39A
+**/
+
+body {
+  font-family: "Helvetica Nueue", "Lucida Grande", Arial, sans-serif;
+  color:#000;
+  text-shadow: 0 0 1px #384E5F;
+  padding:0;
+  margin:0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#shortenedurl_iframe{
+	width:100%;
+	border:0;
+	border-top:1px inset;
+}
+
+.shortenedurl #header{
+	height:80px;
+	background-color: #eee;
+	background: -webkit-gradient(linear, left bottom, left top, from(#384E5F), to(#586E7F));
+	background: -moz-linear-gradient(bottom, #bbd, #fff);
+	background: linear-gradient(bottom, #bbd, #fff);
+}
+
+.shortenedurl h1{
+	margin-top:0;
+}
